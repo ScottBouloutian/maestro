@@ -13,7 +13,6 @@ module.exports.maestro = (event, context, callback) => {
     }
 
     const body = JSON.parse(event.body);
-    console.log(body);
     switch (body.type) {
     case 'url_verification':
         if (body.token === verificationToken) {
