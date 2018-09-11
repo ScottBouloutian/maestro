@@ -1,18 +1,13 @@
 {
     "author": "Scott Bouloutian <ScottBouloutian@gmail.com>",
     "devDependencies": {
-        "eslint": "^4.19.1",
+        "eslint": "^5.2.0",
         "eslint-config-airbnb-base": "^13.0.0",
-        "eslint-plugin-import": "^2.13.0",
-        "serverless": "^1.27.3"
+        "eslint-plugin-import": "^2.13.0"
     },
     "license": "MIT",
-    "main": "handler.js",
+    "main": "index.js",
     "name": "maestro",
     "repository": "git@github.com:ScottBouloutian/maestro.git",
-    "scripts": {
-        "deploy": "serverless deploy",
-        "eslint": "eslint"
-    },
     "version": "1.0.0"
 }

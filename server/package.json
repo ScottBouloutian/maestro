@@ -1,0 +1,17 @@
+{
+    "author": "Scott Bouloutian",
+    "dependencies": {
+        "axios": "^0.18.0",
+        "body-parser": "^1.18.3",
+        "express": "^4.16.3",
+        "lodash": "^4.17.10",
+        "socket.io": "^2.1.1"
+    },
+    "license": "MIT",
+    "main": "index.js",
+    "name": "maestro-server",
+    "scripts": {
+        "start": "node index"
+    },
+    "version": "1.0.0"
+}
