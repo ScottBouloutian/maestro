@@ -1,7 +1,9 @@
 const Song = require('./Song');
 
-export default class SoundCloud extends Song {
-    consturctor(id, duration) {
+class SoundCloud extends Song {
+    constructor(id, duration) {
         super('soundcloud', id, duration);
     }
 }
+
+module.exports = SoundCloud;

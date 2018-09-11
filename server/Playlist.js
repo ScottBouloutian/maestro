@@ -2,7 +2,7 @@ const _ = require('lodash');
 
 const songBuffer = 1000;
 
-export default class Playlist {
+class Playlist {
     constructor() {
         this.songs = [];
         this.currentSong = null;
@@ -21,3 +21,5 @@ export default class Playlist {
         this.songs.push(song);
     }
 }
+
+module.exports = Playlist;
