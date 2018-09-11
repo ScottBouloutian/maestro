@@ -59,5 +59,5 @@ app.put('/playlist', (request, response) => {
     response.send('done');
     response.end();
 });
-io.on('connection', () => log.debug('a user connected'));
+io.on('connection', () => log.info('a user connected'));
 http.listen(port, () => log.info(`server started on port ${port}`));
