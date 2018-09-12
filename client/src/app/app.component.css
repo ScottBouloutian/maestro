@@ -1,0 +1,32 @@
+#particles-js{
+    position:absolute;
+    width: 100vw;
+    height: 100vh;
+    background-color: #2c2e43;
+}
+
+.app {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.panel {
+    background: white;
+    border-radius: 16px;
+    display: block;
+    padding: 16px;
+    pointer-events: none;
+    position: relative;
+    width: 640px;
+}
+
+/* .man {
+    display: block;
+    position: absolute;
+    bottom: 0px;
+    left: 10%;
+    height: 30%;
+} */
